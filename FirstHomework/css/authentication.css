@@ -1,0 +1,49 @@
+.authentication-panel {
+    max-width: 32rem;
+    width: 90%;
+    margin: auto;
+}
+
+.authentication-form {
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 0.65rem;
+    overflow: hidden;
+}
+
+.authentication-input {
+    display: block;
+    width: 100%;
+    line-height: 2.5rem;
+    padding: 5px;
+    border: 0rem;
+    border-bottom: 2px solid #848694;
+}
+
+.authentication-input:focus {
+    border: 0px;
+    border-bottom: 2px solid #b19afe;
+    outline: none;
+}
+
+.authentication-buttons {
+    float: right;
+    margin-top: 4.5rem;
+}
+
+.submit-button {
+    display: block;
+    color: #ffffff;
+    background-color: #00d4ff;
+    border-radius: 0.9rem;
+    max-width: 10rem;
+    padding: 0.5rem 3.5rem;
+    border: none;
+}
+
+.authentication-link {
+    display: block;
+    margin: 1rem;
+    text-decoration: none;
+    text-align: center;
+}

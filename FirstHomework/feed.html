@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/feed.css">
+    <link rel="stylesheet" href="css/navigation.css">
+</head>
+<body>
+    <nav class="navigation">
+        <h2 class="navigation-heading heading" href="#">Flutter</a>
+        <div class="search-container">
+            <input type="text" placeholder="Search" name="search">
+        </div>
+    </nav>
+    <main id="feed">
+        <section id="profile">
+            <img class="profile-pic" src="img/avatar.jpg" alt="Profile picture"/>
+            <h2>Petar Yanakiev</h2>
+            <article id="profile-info">
+                <div>
+                    <p>Posts</p>
+                    <p class="numbers">1</p>
+                </div>
+                <div>
+                    <p>Reactions</p>
+                    <p class="numbers">7</p>
+                </div>
+                <div>
+                    <button id="logout-button">Log Out</button>
+                </div>
+            </article>
+        </section>
+        <section id="profile-feed">
+            <div class="feed-header">
+                <img id="profile-feed-pic" class="profile-pic-small" src="img/avatar.jpg" alt="Profile picture"/>
+                <div id="say-something-container">
+                    <input class="say-something-input" type="text" placeholder="Say something"/>
+                </div>
+            </div>
+            <div class="comment-view">
+                <img id="comment-avatar" class="profile-pic-small" src="img/avatar.jpg" alt="Profile picture"/>
+                <div class="col comment-content">
+                    <div class="comment-header" class="table">
+                        <p class="col commenter-name">Manol Georgiev</p>
+                        <p class="col comment-time">0 seconds ago</p>
+                    </div>
+                    <p class="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quisquam placeat optio labore nemo reiciendis maiores illum aliquid sapiente. Minima repudiandae repellat ab, ducimus corrupti exercitationem natus accusamus excepturi sint!</p>
+                    <div class="likes">
+                        <img class="comment-close col" src="img/like.png" alt="Close"/>
+                        <p class="col">3</p>
+                        <img class="comment-close col wide" src="img/dislike-thumb.png" alt="Close"/>
+                        <p class="col">0</p>
+                    </div>
+                </div>
+                <img class="comment-close" src="img/close.png" alt="Close"/>
+            </div>
+            <div class="comment-view">
+                <img id="comment-avatar" class="profile-pic-small" src="img/avatar.jpg" alt="Profile picture"/>
+                <div class="col comment-content">
+                    <div class="comment-header" class="table">
+                        <p class="col commenter-name">Ivan</p>
+                        <p class="col comment-time">Last month</p>
+                    </div>
+                    <p class="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quisquam placeat optio labore nemo reiciendis maiores illum aliquid sapiente. Minima repudiandae repellat ab, ducimus corrupti exercitationem natus accusamus excepturi sint!</p>
+                    <div class="likes">
+                        <img class="comment-close col" src="img/like.png" alt="Close"/>
+                        <p class="col">3</p>
+                        <img class="comment-close col wide" src="img/dislike-thumb.png" alt="Close"/>
+                        <p class="col">0</p>
+                    </div>
+                </div>
+                <img class="comment-close" src="img/close.png" alt="Close"/>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

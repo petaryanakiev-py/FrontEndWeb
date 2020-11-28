@@ -1,0 +1,32 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    border: white;
+    background: linear-gradient(-100deg, #a2f2f1 0%, #b19afe 100%);
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.heading {
+    font-size: 2.0rem;
+    font-weight: 100;
+    margin-bottom: 0.25rem;
+}
+
+.subheading {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #848694;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}

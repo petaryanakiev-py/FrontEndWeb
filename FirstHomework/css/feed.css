@@ -1,0 +1,142 @@
+#profile {
+    max-width: 18rem;
+    width: 90%;
+    background-color: #ffffff;
+}
+
+#profile-feed {
+    max-width: 55rem;
+    width: 90%;
+    background-color: #ffffff;
+}
+
+#feed {
+    text-align: center;
+}
+
+#feed section {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0.5rem;
+}
+
+#feed #profile-info {
+    background-color: #f6f7fd;
+}
+
+#feed #profile #profile-info div {
+    display: inline-block;
+    padding-left: 1.5rem;
+}
+
+#feed #profile #profile-info .numbers {
+    text-align: initial;
+    color: #53bdd6;
+}
+
+#feed #profile #profile-info #logout-button {
+    height: 2rem;
+    border-radius: 25px;
+    border: 1px solid #53bdd6;
+    color: #53bdd6;
+    background-color: #ffffff;
+}
+
+.profile-pic {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+}
+
+.profile-pic-small {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+#profile-feed input[type=text] {
+    border: none;
+    line-height: 2.0rem;
+    border-radius: 25px;
+    background-color: #ffffff;
+    padding-left: 1.5rem;
+    width: 40rem;
+}
+
+#profile-feed input[type=text]::placeholder {
+    color: #2ab8db;
+}
+
+#profile-feed input[type=text]:focus {
+    outline: none;
+}
+
+#say-something-container {
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#profile-feed-pic {
+    padding-top: 0.5rem;
+}
+
+.feed-header {
+    background-color: #f4fcfd;
+}
+
+.comment-view {
+    padding-top: 1rem;
+    display: table;
+    border-bottom: 0.5px solid #bab3b3;
+}
+
+.col {
+    display: table-cell;
+}
+
+.comment-content {
+    vertical-align: top;
+    text-align: left;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.commenter-name {
+    font-size: 24px;
+}
+
+.comment-time {
+    color: #bab3b3;
+    vertical-align: middle;
+    padding-left: 1rem;
+}
+
+.comment-time:before {
+    content:"• ";
+}
+
+.comment-header {
+    padding-bottom: 0.75rem;
+}
+
+.comment-close {
+    display: table-cell;
+    width: 0.75rem;
+    height: 0.75rem;
+    vertical-align: top;
+    padding-right: 0.5rem;
+}
+
+.likes {
+    display: table;
+    padding-top: 1rem;
+}
+
+.likes p {
+    color: #53bdd6;
+}
+
+.wide {
+    padding-left: 4rem;
+}

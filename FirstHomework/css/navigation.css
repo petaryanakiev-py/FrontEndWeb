@@ -1,0 +1,44 @@
+.navigation {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: table;
+}
+
+.navigation-heading {
+    display: table-cell;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 38px;
+}
+  
+.navigation a.active {
+    background-color: #2196F3;
+    color: white;
+}
+  
+.search-container {
+    float: right;
+    display: table-cell;
+    margin-top: 0.2rem;
+}
+
+.search-container input[type=text] {
+    border: none;
+    line-height: 2.0rem;
+    border-radius: 25px;
+    background-color: #f6f7fd;
+    padding-left: 1.5rem;
+}
+
+.navigation input[type=text]:focus {
+    outline: none;
+}
+
+#feed {
+    margin-top: 5rem;
+}
